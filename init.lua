@@ -122,7 +122,7 @@ mobs:register_mob('viron:viron_mob', {
 mobs:spawn({
    name = 'viron:viron_mob',
    nodes = {'asteroid:redstone', 'asteroid:stone', 'asteroid:gravel', 'asteroid:redgravel'},
-   chance = 5,
+   chance = 10,
    interval = 30,
    active_object_count = 2,
    min_height = 5000,
